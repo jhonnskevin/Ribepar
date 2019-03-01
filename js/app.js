@@ -32,7 +32,7 @@ var usuario;*/
 
 
 // ===== Codigo de la aplicación
-
+/*
 function crearMensajeHTML(mensaje, personaje) {
 
     var content =`
