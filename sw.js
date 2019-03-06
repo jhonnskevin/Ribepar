@@ -7,14 +7,13 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
     //'/',
-    'index.html',
+    'index.html'/*,
     'plugins/bootstrap/css/bootstrap.css',
     'plugins/node-waves/waves.css',
     'plugins/animate-css/animate.css',
     'plugins/sweetalert/sweetalert.css',
     'css/style.css',
-    'css/themes/all-themes.css',
-   
+    'css/themes/all-themes.css',*/
     
 
     /*
@@ -75,7 +74,7 @@ self.addEventListener('fetch', e => {
     const respuesta = caches.match(e.request).then(res => {
 
         if(res) {
-            return res;
+            return res; 
         }else{
             return fetch(e.request).then(newRes =>{
                 return actualizaCacheDinamico(DYNAMIC_CACHE, e.request, newRes);
