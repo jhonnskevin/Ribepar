@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swlocation = './Ribepar/sw.js';
+var swlocation = '/Ribepar/sw.js';
 
 if (navigator.serviceWorker){
 
