@@ -7,7 +7,9 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
     //'/',
-    'index.html'/*,
+    'index.html',
+    'pages/diario.html',
+    'pages/prueba.html'/*,
     'plugins/bootstrap/css/bootstrap.css',
     'plugins/node-waves/waves.css',
     'plugins/animate-css/animate.css',
